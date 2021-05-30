@@ -17,9 +17,11 @@ export default function Home() {
           <h1>Mesh Dojo Gallery</h1>
         </div>
         <div className="gallery">
-          <Link href="/canvas_painting_animation"><p>Canvas painting</p></Link>
-          <Link href="/threejs_image_wave"><p>Threejs image wave</p></Link>
-          <Link href="/threejs_line_wobble"><p>Threejs line wobble</p></Link>
+          <ul>
+            <Link href="/canvas_painting_animation"><li>Canvas painting</li></Link>
+            <Link href="/threejs_image_wave"><li>Threejs image wave</li></Link>
+            <Link href="/threejs_line_wobble"><li>Threejs line wobble</li></Link>
+          </ul>
         </div>
       </div>
     </div>

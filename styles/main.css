@@ -29,18 +29,19 @@
 
 .meshdojo-gallery .title h1 {
   margin-left: 8px;
+  text-transform: uppercase;
 }
 
 .meshdojo-gallery img {
-  width: 50px;
+  width: 40px;
 }
 
-.meshdojo-gallery .gallery p {
+.meshdojo-gallery .gallery li {
   margin-top: 8px;
   cursor: pointer;
 }
 
-.meshdojo-gallery .gallery p:hover {
+.meshdojo-gallery .gallery li:hover {
   text-decoration: underline;
 }
 
