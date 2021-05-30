@@ -1,0 +1,35 @@
+.meshdojo-gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        margin: 0;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            margin-left: 8px;
+        }
+    }
+    img{
+        width: 50px;
+    }
+    .gallery{
+        p{
+            margin-top: 8px;
+            cursor: pointer;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+@import './fonts/fonts';
+@import '../components/header/main';
+@import '../components/canvas-painting-animation/main';
+@import '../components/threejs-line-wobble/main';
+@import '../components/threejs-image-wave/main';

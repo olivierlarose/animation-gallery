@@ -1,0 +1,16 @@
+.threejs-line-wobble{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+      .elastic-line canvas{
+        position: absolute;
+        margin-top: -100px;
+      }
+      p{
+        color: lightgrey;
+      }
+      
+}
