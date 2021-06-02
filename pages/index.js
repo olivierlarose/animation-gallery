@@ -18,6 +18,7 @@ export default function Home() {
         </div>
         <div className="gallery">
           <ul>
+            <Link href="/font_variation"><li>Font variation</li></Link>
             <Link href="/canvas_painting_animation"><li>Canvas painting</li></Link>
             <Link href="/threejs_image_wave"><li>Threejs image wave</li></Link>
             <Link href="/threejs_line_wobble"><li>Threejs line wobble</li></Link>
