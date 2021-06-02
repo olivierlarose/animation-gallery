@@ -207,7 +207,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  z-index: 100;
 }
 
 .font-variation .word {
