@@ -1,0 +1,26 @@
+.font-physics{
+    .scene{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0px;
+
+        .main{
+            height: 100%;
+            width: 100%;
+            }
+            .footer{
+                background-color: black;
+                color: white;
+                height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding-right: 50px;
+                width: 100%;
+            }
+
+      }
+}

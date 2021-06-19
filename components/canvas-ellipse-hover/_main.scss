@@ -1,0 +1,36 @@
+.canvas-ellipse-hover{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+.scene{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 25px;
+  }
+  
+  .scene p{
+    position: relative;
+    z-index: 1;
+    cursor: default;
+  }
+  
+  .scene svg{
+    position: absolute;
+    width: 100%;
+  }
+  
+  .scene svg path{
+    stroke: transparent;
+    fill: transparent;
+    stroke-width: 3;
+    transition-property: stroke-dashoffset;
+    transition-duration: 0;
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+  
