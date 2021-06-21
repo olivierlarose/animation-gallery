@@ -18,8 +18,9 @@ export default function Home() {
         </div>
         <div className="gallery">
           <ul>
-            <Link href="/font-physics"><li>Font Physics</li></Link>
+            <Link href="/image-bounce-borders"><li>Image Bounce Borders</li></Link>
             <Link href="/canvas-ellipse-hover"><li>Canvas Ellipse Hover</li></Link>
+            <Link href="/font-physics"><li>Font Physics</li></Link>
             <Link href="/font_variation"><li>Font variation</li></Link>
             <Link href="/threejs_image_wave"><li>Threejs image wave</li></Link>
             <Link href="/threejs_line_wobble"><li>Threejs line wobble</li></Link>

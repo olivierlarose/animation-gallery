@@ -245,7 +245,7 @@
   font-size: 35px;
 }
 
-.scene {
+.canvas-ellipse-hover .scene {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -259,18 +259,18 @@
   padding: 25px;
 }
 
-.scene p {
+.canvas-ellipse-hover .scene p {
   position: relative;
   z-index: 1;
   cursor: default;
 }
 
-.scene svg {
+.canvas-ellipse-hover .scene svg {
   position: absolute;
   width: 100%;
 }
 
-.scene svg path {
+.canvas-ellipse-hover .scene svg path {
   stroke: transparent;
   fill: transparent;
   stroke-width: 3;
@@ -318,5 +318,55 @@
           justify-content: flex-end;
   padding-right: 50px;
   width: 100%;
+}
+
+.image-bounce-borders .scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  padding: 0px;
+}
+
+.image-bounce-borders .scene .item {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s forwards;
+          animation: fadeIn 1s forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.image-bounce-borders .scene .item img {
+  width: 100%;
+  -webkit-animation: rotate 10s infinite linear;
+          animation: rotate 10s infinite linear;
+}
+
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=main.css.map */

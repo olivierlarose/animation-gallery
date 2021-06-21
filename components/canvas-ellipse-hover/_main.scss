@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: center;
   font-size: 35px;
-}
-.scene{
+
+  .scene{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,3 +34,4 @@
     transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
   
+}
